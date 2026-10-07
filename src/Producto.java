@@ -1,4 +1,4 @@
-public class Producto {
+public abstract class Producto {
     private String nombreProducto;
     private int codigo;
     private double precio;
@@ -36,4 +36,7 @@ public class Producto {
         System.out.println("Categoria del producto: " + categoria);
         System.out.println("Cantidad de productos: " + cantidadProducto);
     }
+
+    // Método abstracto
+    public abstract void mostrarTipo();
 }
