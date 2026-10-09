@@ -15,29 +15,23 @@ public class Main {
                 "San Salvador"
         );
 
-        Producto producto1 = new Producto(
-                "Computadora Lenovo",
-                3108,
-                1000.00,
-                "Aparato electronico",
-                "1"
+   ProductoElectronico electronico = new ProductoElectronico(
+           "Laptop",
+                    101,
+                    900.00,
+                 "Tecnologia",
+           "5",
+                    "Lenovo"
         );
 
-        Producto producto2 = new Producto(
-                "Mouse",
-                8,
-                25.00,
-                "Accesorios",
-                "2"
-        );
-
-        Producto producto3 = new Producto(
-                "Teclado",
-                8,
-                25.00,
-                "Accesorios",
-                "2"
-        );
+       ProductoAccesorio accesorio = new ProductoAccesorio(
+               "Cartera",
+                        102,
+                        23.50,
+                    "Accesorios",
+               "3",
+                     "Cuero"
+       );
 
         Carrito carrito = new Carrito(
                 cliente.getNombreCliente(),
@@ -70,14 +64,16 @@ public class Main {
         cliente.mostrarCliente();
         System.out.println();
 
-        System.out.println("=========Productos=========");
-        producto1.mostrarProducto();
+        System.out.println("HERENCIA IMPLEMENTADA");
+
+        System.out.println("=========Producto Electronico=========");
+        electronico.mostrarProducto();
+        electronico.mostrarTipo();
         System.out.println();
 
-        producto2.mostrarProducto();
-        System.out.println();
-
-        producto3.mostrarProducto();
+        System.out.println("=========Producto Accesorio=========");
+        accesorio.mostrarProducto();
+        accesorio.mostrarTipo();
         System.out.println();
 
         System.out.println("=========Productos en la compra========");
