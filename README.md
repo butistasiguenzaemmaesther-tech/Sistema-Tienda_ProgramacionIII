@@ -8,7 +8,7 @@
 - Integrante 2 — Pendiente
 - Integrante 3 — Pendiente
 - Integrante 4 — Pendiente
-- - **Emma Esther Bautista Sigüenza** — BS-68546-25
+- **Emma Esther Bautista Sigüenza** — BS-68546-25
 ---
 
 ## 🛍️ Descripción del proyecto
