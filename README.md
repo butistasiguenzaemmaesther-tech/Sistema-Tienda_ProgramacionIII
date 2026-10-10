@@ -107,7 +107,7 @@ Los porcentajes de participación serán actualizados cuando se defina la distri
 | ----------------------------- | --------------------------------------- |---------------- | 
 | Emma Esther Bautista Sigüenza | clase abstracta - producto              |  100%           | 
 | Integrante 2                  | Herencia - subclases                    |  100%           | 
-| Integrante 3                  | Interfaces - vendible                   |  100%           | 
+| Marvin Ernesto Perez Menjivar | Interfaces - vendible                   |  100%           | 
 | Integrante 4                  | polimorfismo - sobrecarga/sobrescritura |  100%           | 
 | Integrante 5                  | Integracion - Main mas demostracion     |  100%           | 
 ---
