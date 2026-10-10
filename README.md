@@ -4,7 +4,7 @@
 
 ### 👥 Integrantes
 
-- Integrante 1 — Pendiente
+- **Marvin Ernesto Perez Menjivar** — PM-69065-25
 - **Karina Lizeth Flores Rodríguez** — FR-68440-25
 - **Kevin Josué Vilanueva León** — VL-68652-25
 - **Andy Humberto Carrillo Santos** - CS-69933-25
