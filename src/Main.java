@@ -15,76 +15,84 @@ public class Main {
                 "San Salvador"
         );
 
-   ProductoElectronico electronico = new ProductoElectronico(
-           "Laptop",
-                    101,
-                    900.00,
-                 "Tecnologia",
-           "5",
-                    "Lenovo"
+        ProductoElectronico electronico = new ProductoElectronico(
+                "Laptop",
+                101,
+                900.00,
+                "Tecnologia",
+                "5",
+                "Lenovo"
         );
 
-       ProductoAccesorio accesorio = new ProductoAccesorio(
-               "Cartera",
-                        102,
-                        23.50,
-                    "Accesorios",
-               "3",
-                     "Cuero"
-       );
+        ProductoAccesorio accesorio = new ProductoAccesorio(
+                "Cartera",
+                102,
+                23.50,
+                "Accesorios",
+                "3",
+                "Cuero"
+        );
 
+        // Productos y total de compra
+        String productosCompra = electronico.getNombreProducto()
+                + ", " + accesorio.getNombreProducto();
+
+        double totalCompra = electronico.getPrecio()
+                + accesorio.getPrecio();
+
+        // Crear carrito
         Carrito carrito = new Carrito(
                 cliente.getNombreCliente(),
                 4,
-                "Computadora Lenovo, Mouse",
-                "27/08/2026",
-                1025.00
+                productosCompra,
+                "10/10/2026",
+                totalCompra
         );
 
+        // Crear pedido con los mismos productos y total
         Pedido pedido = new Pedido(
                 30,
                 cliente.getNombreCliente(),
-                "Computadora Lenovo, Mouse, Teclado",
-                1070.00
+                productosCompra,
+                totalCompra
         );
 
+        // Crear factura con los mismos productos y total
         Factura factura = new Factura(
                 2666,
                 cliente.getNombreCliente(),
-                "Computadora Lenovo, Mouse, Teclado",
-                1070.00
+                productosCompra,
+                totalCompra
         );
 
-        // Imprimir resultados
-        System.out.println("=========Tienda=========");
+        // Mostrar tienda
+        System.out.println("========= TIENDA =========");
         tienda.mostrarTienda();
-        System.out.println();
 
-        System.out.println("=========Cliente=========");
+        // Mostrar cliente
+        System.out.println("\n========= CLIENTE =========");
         cliente.mostrarCliente();
-        System.out.println();
 
-        System.out.println("HERENCIA IMPLEMENTADA");
-
-        System.out.println("=========Producto Electronico=========");
+        // Mostrar producto electrónico
+        System.out.println("\n========= PRODUCTO ELECTRONICO =========");
         electronico.mostrarProducto();
         electronico.mostrarTipo();
-        System.out.println();
 
-        System.out.println("=========Producto Accesorio=========");
+        // Mostrar producto accesorio
+        System.out.println("\n========= PRODUCTO ACCESORIO =========");
         accesorio.mostrarProducto();
         accesorio.mostrarTipo();
-        System.out.println();
 
-        System.out.println("=========Productos en la compra========");
+        // Mostrar carrito
+        System.out.println("\n========= CARRITO =========");
         carrito.MostrarCarrito();
-        System.out.println();
 
-        System.out.println("=========Núm de compra=========");
+        // Mostrar pedido
+        System.out.println("\n========= PEDIDO =========");
         pedido.mostrarPedido();
-        System.out.println();
 
-        System.out.println("=========Factura=========");
+        // Mostrar factura
+        System.out.println("\n========= FACTURA =========");
         factura.mostrarFactura();
     }
 }
