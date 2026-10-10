@@ -1,5 +1,5 @@
 //subclase que hereda de la clase abstracta producto
-public class ProductoElectronico extends Producto {
+public class ProductoElectronico extends Producto implements Vendible{
     private String marca;
 
     //constructor de la clase
@@ -15,5 +15,15 @@ public class ProductoElectronico extends Producto {
     public void mostrarTipo() {
         System.out.println("Marca del producto electronico: " + marca);
 
+    }
+
+        @Override
+    public double calcularTotalVenta() {
+        return getPrecio(); 
+    }
+
+        @Override
+    public boolean verificarDisponibilidad() {
+        return true; 
     }
 }
