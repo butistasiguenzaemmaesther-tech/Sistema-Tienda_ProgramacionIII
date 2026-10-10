@@ -5,7 +5,7 @@
 ### 👥 Integrantes
 
 - Integrante 1 — Pendiente
-- Integrante 2 — Pendiente
+- **Karina Lizeth Flores Rodríguez** — FR-68440-25
 - Integrante 3 — Pendiente
 - **Andy Humberto Carrillo Santos** - CS-69933-25
 - **Emma Esther Bautista Sigüenza** — BS-68546-25
