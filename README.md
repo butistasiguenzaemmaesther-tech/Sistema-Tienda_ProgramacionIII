@@ -6,7 +6,7 @@
 
 - Integrante 1 — Pendiente
 - **Karina Lizeth Flores Rodríguez** — FR-68440-25
-- Integrante 3 — Pendiente
+- **Kevin Josué Vilanueva León** — VL-68652-25
 - **Andy Humberto Carrillo Santos** - CS-69933-25
 - **Emma Esther Bautista Sigüenza** — BS-68546-25
 ---
