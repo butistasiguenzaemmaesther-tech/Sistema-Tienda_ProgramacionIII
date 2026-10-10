@@ -106,7 +106,7 @@ Los porcentajes de participación serán actualizados cuando se defina la distri
 | Integrante                    | DISTRIBUCION                            | Participación   |   
 | ----------------------------- | --------------------------------------- |---------------- | 
 | Emma Esther Bautista Sigüenza | clase abstracta - producto              |  100%           | 
-| Integrante 2                  | Herencia - subclases                    |  100%           | 
+| Karina Lizeth Flores Rodriguez| Herencia - subclases                    |  100%           | 
 | Marvin Ernesto Perez Menjivar | Interfaces - vendible                   |  100%           | 
 | Kevin Josué Villanueva León   | polimorfismo - sobrecarga/sobrescritura |  100%           | 
 | Andy Humberto Carrillo Santos | Integracion - Main mas demostracion     |  100%           | 
