@@ -1,4 +1,4 @@
-public class ProductoAccesorio extends Producto {
+public class ProductoAccesorio extends Producto implements Vendible{
     private String material;
 
     public ProductoAccesorio(String nombreProducto, int codigo, double precio,
@@ -10,5 +10,14 @@ public class ProductoAccesorio extends Producto {
     @Override
     public void mostrarTipo() {
         System.out.println("Material del producto accesorio: " + material);
+    }
+    @Override
+    public double calcularTotalVenta() {
+        return getPrecio(); 
+    }
+
+    @Override
+    public boolean verificarDisponibilidad() {
+        return true; 
     }
 }
