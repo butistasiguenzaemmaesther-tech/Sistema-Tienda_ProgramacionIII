@@ -7,7 +7,7 @@
 - Integrante 1 — Pendiente
 - Integrante 2 — Pendiente
 - Integrante 3 — Pendiente
-- Integrante 4 — Pendiente
+- **Andy Humberto Carrillo Santos** - CS-69933-25
 - **Emma Esther Bautista Sigüenza** — BS-68546-25
 ---
 
@@ -109,7 +109,7 @@ Los porcentajes de participación serán actualizados cuando se defina la distri
 | Integrante 2                  | Herencia - subclases                    |  100%           | 
 | Marvin Ernesto Perez Menjivar | Interfaces - vendible                   |  100%           | 
 | Integrante 4                  | polimorfismo - sobrecarga/sobrescritura |  100%           | 
-| Integrante 5                  | Integracion - Main mas demostracion     |  100%           | 
+| Andy Humberto Carrillo Santos | Integracion - Main mas demostracion     |  100%           | 
 ---
 
 **Programación III — UPED**
