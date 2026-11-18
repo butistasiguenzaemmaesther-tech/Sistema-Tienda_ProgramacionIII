@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws ProductoInvalidoException {
 
         Tienda tienda = new Tienda("Electro Villanueva", "San Salvador", "2222-4444");
         Cliente cliente = new Cliente("Kevin Villanueva", 22, "6134-0000", "Kevin.villanueva@uped.edu.sv", "San Salvador");

@@ -4,7 +4,7 @@ public class ProductoAccesorio extends Producto implements Vendible {
     public ProductoAccesorio(String nombreProducto, int codigo, double precio,
                              String categoria, String cantidadProducto, String material) 
 
-             throws Exception {
+             throws ProductoInvalidoException {
 
         super(nombreProducto, codigo, precio, categoria, cantidadProducto);
         this.material = material;

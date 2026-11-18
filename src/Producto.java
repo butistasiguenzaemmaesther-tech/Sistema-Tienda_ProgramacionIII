@@ -6,19 +6,19 @@ public abstract class Producto {
     private String cantidadProducto;
 
     public Producto(String nombreProducto, int codigo, double precio, 
-        String categoria, String cantidadProducto) throws Exception {
+        String categoria, String cantidadProducto) throws ProductoInvalidoException {
 
             if (nombreProducto.isEmpty()) {
-             throw new Exception("El nombre del producto no puede estar vacio");
+             throw new ProductoInvalidoException("El nombre del producto no puede estar vacio");
             }
 
 
             if (codigo <= 0) {
-                throw new Exception("El codigo debe ser mayor a 0");
+                throw new ProductoInvalidoException("El codigo debe ser mayor a 0");
             }
 
             if (precio <= 0) {
-                throw new Exception("El precio debe ser mayor que 0");
+                throw new PrecioIncorrectoException("El precio debe ser mayor que 0");
             }
 
 
