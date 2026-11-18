@@ -1,12 +1,12 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         Tienda tienda = new Tienda("Electro Villanueva", "San Salvador", "2222-4444");
         Cliente cliente = new Cliente("Kevin Villanueva", 22, "6134-0000", "Kevin.villanueva@uped.edu.sv", "San Salvador");
 
         // Usamos relaciones en tipo abstracto Producto (Polimorfismo por herencia)
         Producto p1 = new ProductoElectronico("Laptop Lenovo", 101, 900.00, "Tecnologia", "5", "Lenovo");
-        Producto p2 = new ProductoAccesorio("Cartera", 102, 23.50, "Accesorios", "3", "Cuero");
+        Producto p2 = new ProductoAccesorio("cartera", 102, 23.50, "Accesorios", "3", "Cuero");
 
         System.out.println("========= DEMO DE POLIMORFISMO Y SOBRECARGA =========");
 

@@ -2,7 +2,10 @@ public class ProductoElectronico extends Producto implements Vendible {
     private String marca;
 
     public ProductoElectronico(String nombreProducto, int codigo, double precio,
-                               String categoria, String cantidadProducto, String marca) {
+                 String categoria, String cantidadProducto, String marca) 
+
+          throws Exception {
+            
         super(nombreProducto, codigo, precio, categoria, cantidadProducto);
         this.marca = marca;
     }

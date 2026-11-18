@@ -5,7 +5,24 @@ public abstract class Producto {
     private String categoria;
     private String cantidadProducto;
 
-    public Producto(String nombreProducto, int codigo, double precio, String categoria, String cantidadProducto) {
+    public Producto(String nombreProducto, int codigo, double precio, 
+        String categoria, String cantidadProducto) throws Exception {
+
+            if (nombreProducto.isEmpty()) {
+             throw new Exception("El nombre del producto no puede estar vacio");
+            }
+
+
+            if (codigo <= 0) {
+                throw new Exception("El codigo debe ser mayor a 0");
+            }
+
+            if (precio <= 0) {
+                throw new Exception("El precio debe ser mayor que 0");
+            }
+
+
+
         this.nombreProducto = nombreProducto;
         this.codigo = codigo;
         this.precio = precio;
