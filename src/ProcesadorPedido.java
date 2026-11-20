@@ -22,6 +22,8 @@ public class ProcesadorPedido implements Runnable {
         } catch (InterruptedException e) {
             System.out.println("El procesamiento del pedido fue interrumpido.");
             Thread.currentThread().interrupt();
+        } finally {
+            System.out.println("Finalizando ejecucion del hilo para el pedido #" + pedido.getNumeroPedido() + ".");
         }
     }
 }
