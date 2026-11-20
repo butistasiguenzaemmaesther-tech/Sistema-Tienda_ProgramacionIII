@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -45,6 +44,8 @@ public class VentanaTienda extends JFrame {
             productos.add(new ProductoAccesorio("Cartera", 102, 23.50, "Accesorios", "3", "Cuero"));
         } catch (ProductoInvalidoException | PrecioIncorrectoException e) {
             JOptionPane.showMessageDialog(this, e.getMessage());
+        } finally {
+            System.out.println("Carga de productos iniciales evaluada.");
         }
     }
 
@@ -204,6 +205,8 @@ public class VentanaTienda extends JFrame {
             JOptionPane.showMessageDialog(this, "Datos del cliente.");
         } catch (NumberFormatException ex) {
             JOptionPane.showMessageDialog(this, "Edad debe ser numero entero.");
+        } finally {
+            System.out.println("Intento de guardado de cliente finalizado.");
         }
     }
 
@@ -235,6 +238,8 @@ public class VentanaTienda extends JFrame {
             JOptionPane.showMessageDialog(this, "Codigo entero y precio numerico.");
         } catch (ProductoInvalidoException | PrecioIncorrectoException ex) {
             JOptionPane.showMessageDialog(this, ex.getMessage());
+        } finally {
+            System.out.println("Intento de registro de producto finalizado.");
         }
     }
 
@@ -279,6 +284,8 @@ public class VentanaTienda extends JFrame {
             );
         } catch (NumberFormatException ex) {
             JOptionPane.showMessageDialog(this, "Validar ID de compra sea correctos.");
+        } finally {
+            System.out.println("Intento de generacion de factura finalizado.");
         }
     }
 
