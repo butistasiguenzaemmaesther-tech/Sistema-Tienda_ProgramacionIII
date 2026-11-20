@@ -14,9 +14,15 @@ public class Main {
 
         System.out.println(" DEMO DE POLIMORFISMO Y SOBRECARGA ");
 
+<<<<<<< HEAD
         // "1. Demostracion de polimorfismo y binding dinamico"
         System.out.println("\n 1. Recorrido Polimórfico en Arreglo Producto[] ");
         Producto[] listaProductos = { p1, p2 };
+=======
+        // 1. DEMOSTRACIÓN DE POLIMORFISMO Y BINDING DINÁMICO
+        System.out.println("\n--- 1. Recorrido Polimórfico en Arreglo Producto[] ---");
+        Producto[] listaProductos = {p1, p2};
+>>>>>>> d7a69f8eb76a62ae9f2a00d25b4379742c7d9f97
 
         for (Producto p : listaProductos) {
             // "Llama a los metodos sobrescritos segun el tipo real del objeto"
@@ -40,6 +46,12 @@ public class Main {
 
         Carrito carrito = new Carrito(cliente.getNombreCliente(), 4, productosCompra, "10/10/2026", totalDescuento2);
         Pedido pedido = new Pedido(30, cliente.getNombreCliente(), productosCompra, totalDescuento2);
+
+        // 4. NUESTRA PARTE: IMPLEMENTACIÓN DE HILOS PARA EL PROCESAMIENTO DE PEDIDOS
+        // Se implementó Runnable y Thread para ejecutar el procesamiento del pedido
+        Thread hiloPedido = new Thread(new ProcesadorPedido(pedido));
+        hiloPedido.start();
+
         Factura factura = new Factura(2666, cliente.getNombreCliente(), productosCompra, totalDescuento2);
 
         System.out.println("\n RESUMEN DE FACTURACIÓN ");
