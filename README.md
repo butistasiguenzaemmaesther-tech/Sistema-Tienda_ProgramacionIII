@@ -16,11 +16,11 @@
 
 | N.º | Integrante                     | Carnet      | Responsabilidad                                | Participación |
 | :-: | ------------------------------ | ----------- | ---------------------------------------------- | :-----------: |
-|  1  | Marvin Ernesto Perez Menjivar  | PM-69065-25 | Manejo de errores (`try-catch-finally`)        |   **[ % ]**   |
-|  2  | Karina Lizeth Flores Rodríguez | FR-68440-25 | Excepciones personalizadas (`throw`, `throws`) |   **[ % ]**   |
-|  3  | Kevin Josué Vilanueva León     | VL-68652-25 | Interfaz gráfica (Swing)                       |   **[ % ]**   |
-|  4  | Emma Esther Bautista Sigüenza  | BS-68546-25 | Hilos (`Thread` o `Runnable`)                  |   **[ % ]**   |
-|  5  | Andy Humberto Carrillo Santos  | CS-69933-25 | Integración y pruebas del proyecto             |   **[ % ]**   |
+|  1  | Marvin Ernesto Perez Menjivar  | PM-69065-25 | Manejo de errores (`try-catch-finally`)        |   **[100%]**   |
+|  2  | Karina Lizeth Flores Rodríguez | FR-68440-25 | Excepciones personalizadas (`throw`, `throws`) |   **[100%]**   |
+|  3  | Kevin Josué Vilanueva León     | VL-68652-25 | Interfaz gráfica (Swing)                       |   **[100%]**   |
+|  4  | Emma Esther Bautista Sigüenza  | BS-68546-25 | Hilos (`Thread` o `Runnable`)                  |   **[100%]**   |
+|  5  | Andy Humberto Carrillo Santos  | CS-69933-25 | Integración y pruebas del proyecto             |   **[100%]**   |
 
 ---
 
